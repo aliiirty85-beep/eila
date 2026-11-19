@@ -185,6 +185,59 @@ function updatePermUI() {
   }
 }
 
+/* ═══════════════════════ نصب PWA ═══════════════════════ */
+let deferredInstall = null;
+function isStandalone() {
+  return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches)
+    || navigator.standalone === true;
+}
+function isIOS() {
+  return /iphone|ipad|ipod/i.test(navigator.userAgent)
+    || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+}
+function updateInstallUI() {
+  const st = $('#installStatus'), btn = $('#btnInstall'), hint = $('#installHint');
+  if (!st || !btn || !hint) return;
+  btn.classList.add('hidden');
+  if (isStandalone()) {
+    st.textContent = 'نصب شده ✅';
+    hint.textContent = 'داری ایلا رو به‌صورت اپ نصب‌شده اجرا می‌کنی؛ نوتیفیکیشن و آلارم‌ها تو این حالت بهترین عملکرد رو دارن.';
+  } else if (deferredInstall) {
+    st.textContent = 'آمادهٔ نصب';
+    btn.classList.remove('hidden');
+    hint.textContent = 'یک کلیک کن تا ایلا مثل یه اپ واقعی روی صفحهٔ اصلی گوشی یا دسکتاپ نصب بشه.';
+  } else if (isIOS()) {
+    st.textContent = 'نصب دستی (iOS)';
+    hint.textContent = 'توی سافاری: دکمهٔ اشتراک‌گذاری → «Add to Home Screen». نوتیفیکیشن فقط بعد از نصب کار می‌کند (iOS 16.4 به بالا).';
+  } else {
+    st.textContent = 'در دسترس نیست';
+    hint.textContent = 'توی کروم/اج: منوی ⋮ → «Add to Home screen / نصب برنامه». اگه نبود، یه بار صفحه رو رفرش کن.';
+  }
+}
+function watchInstallPrompt() {
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredInstall = e;
+    updateInstallUI();
+  });
+  window.addEventListener('appinstalled', () => {
+    deferredInstall = null;
+    updateInstallUI();
+    toast('✅ ایلا نصب شد');
+  });
+}
+async function promptInstall() {
+  if (!deferredInstall) return;
+  const ev = deferredInstall;
+  deferredInstall = null;
+  try {
+    await ev.prompt();
+    const choice = await ev.userChoice;
+    if (choice && choice.outcome === 'accepted') toast('📲 در حال نصب ایلا…');
+  } catch (e) {}
+  updateInstallUI();
+}
+
 /* ═══════════════════════ موتور تایمر ═══════════════════════ */
 let tickIv = null, tickWorker = null;
 
@@ -373,7 +426,7 @@ async function keepAwake(on) {
 
 /* ═══════════════════════ رندر ═══════════════════════ */
 function renderAll() {
-  renderHeader(); renderChips(); renderTimer(); renderActs(); renderScore(); updatePermUI(); renderSettings();
+  renderHeader(); renderChips(); renderTimer(); renderActs(); renderScore(); updatePermUI(); renderSettings(); updateInstallUI();
 }
 
 function renderHeader() {
@@ -611,6 +664,7 @@ function bindEvents() {
 
   /* مجوز نوتیف */
   $('#permBtn').addEventListener('click', ensurePermission);
+  $('#btnInstall').addEventListener('click', promptInstall);
   $('#btnPerm2').addEventListener('click', ensurePermission);
 
   /* فعالیت‌ها */
@@ -674,6 +728,7 @@ function init() {
     saveActs();
   }
   bindEvents();
+  watchInstallPrompt();
   renderAll();
   restoreTimer();
   registerSW();

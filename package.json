@@ -1,0 +1,12 @@
+{
+  "name": "eila",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ایلا — ضرب‌الاجل، امتیاز و سطح (PWA فارسی)",
+  "scripts": {
+    "test": "node smoke.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.1"
+  }
+}
