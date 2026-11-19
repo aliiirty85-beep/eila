@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1226">
+<meta name="description" content="ایلا — بلوک‌های ۵ دقیقه‌ای، ضرب‌الاجل‌ها، امتیاز و سطح، با آلارم اجباری">
+<title>ایلا — ضرب‌الاجل و امتیاز</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ایلا">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ═══════════ هدر ═══════════ -->
+  <header class="topbar">
+    <div class="brand">⏳ ایلا</div>
+    <div class="level-chip" id="levelChip">🌱 مبتدی · ۰ امتیاز</div>
+  </header>
+
+  <!-- ═══════════ بنر مجوز نوتیفیکیشن ═══════════ -->
+  <div id="permBanner" class="banner hidden">
+    <div id="permText">🔔 برای اینکه آلارم‌ها به دستت برسه، باید نوتیفیکیشن رو مجاز کنی.</div>
+    <button id="permBtn" class="btn primary">اجازه نوتیفیکیشن</button>
+  </div>
+
+  <main>
+
+    <!-- ═══════════ تب تایمر ═══════════ -->
+    <section id="tab-timer" class="tab active">
+      <div class="card timer-card">
+        <div class="t-name" id="currentActivityName">⏱ بلوک ۵ دقیقه‌ای</div>
+
+        <div class="ring-wrap">
+          <svg viewBox="0 0 220 220" aria-hidden="true">
+            <defs>
+              <linearGradient id="gradRing" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f5b942"/>
+                <stop offset="1" stop-color="#7c6cff"/>
+              </linearGradient>
+            </defs>
+            <circle class="ring-bg" cx="110" cy="110" r="100"/>
+            <circle class="ring-fg" id="ringFg" cx="110" cy="110" r="100" transform="rotate(-90 110 110)"/>
+          </svg>
+          <div class="ring-center">
+            <div class="time" id="timeDisplay">۰۵:۰۰</div>
+            <div class="stake" id="stakeDisplay">۱۰ امتیاز</div>
+          </div>
+        </div>
+
+        <div class="next-alert" id="nextAlert"></div>
+
+        <div class="controls">
+          <button id="btnStart" class="btn primary big">▶ شروع</button>
+          <button id="btnPause" class="btn warn hidden">⏸ توقف موقت</button>
+          <button id="btnAdd1" class="btn hidden">＋۱ دقیقه</button>
+          <button id="btnStop" class="btn danger hidden">■ قطع</button>
+        </div>
+
+        <div class="lock-note">🔒 آلارم اجباریِ هر ۵ دقیقه — همیشه فعال</div>
+      </div>
+
+      <h3 class="section-title">انتخاب فعالیت</h3>
+      <div id="activityChips" class="chips"></div>
+    </section>
+
+    <!-- ═══════════ تب فعالیت‌ها ═══════════ -->
+    <section id="tab-acts" class="tab">
+      <h2 class="section-title">🎯 فعالیت‌ها و ضرب‌الاجل‌ها</h2>
+      <div id="actsList"></div>
+      <button id="btnAddAct" class="btn primary full">➕ فعالیت جدید</button>
+
+      <form id="actForm" class="card form hidden">
+        <input type="hidden" id="af-id">
+        <label>اسم فعالیت
+          <input id="af-name" maxlength="30" placeholder="مثلاً: تمرین زبان" required>
+        </label>
+        <label>آیکون (ایموجی)
+          <div class="emoji-row" id="emojiRow"></div>
+          <input id="af-icon" maxlength="4" value="⏱" required>
+        </label>
+        <label>مدت (دقیقه)
+          <input id="af-min" type="number" min="1" max="480" value="25" required>
+        </label>
+        <label>امتیازِ کامل کردن این فعالیت
+          <input id="af-pts" type="number" min="0" max="9999" value="20" required>
+        </label>
+        <div class="hint hidden" id="afNote">🔒 مدتِ «بلوک ۵ دقیقه‌ای» ثابت است و عوض نمی‌شود (مبنای آلارم اجباری).</div>
+        <div class="btn-row">
+          <button type="submit" class="btn primary">💾 ذخیره</button>
+          <button type="button" id="afCancel" class="btn">انصراف</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ═══════════ تب امتیاز ═══════════ -->
+    <section id="tab-score" class="tab">
+      <h2 class="section-title">🏅 امتیاز و سطح</h2>
+      <div class="card score-hero">
+        <div class="score-points" id="totalPoints">۰</div>
+        <div class="score-pts-label">امتیاز کل</div>
+        <div class="level-badge" id="levelBadge">🌱 مبتدی</div>
+        <div class="progress"><div class="progress-fill" id="levelProgress"></div></div>
+        <div class="hint" id="levelNextText"></div>
+      </div>
+
+      <div class="stats">
+        <div class="stat card"><div class="stat-num" id="statToday">۰</div><div class="stat-lbl">امتیاز امروز</div></div>
+        <div class="stat card"><div class="stat-num" id="statWeek">۰</div><div class="stat-lbl">امتیاز هفته</div></div>
+        <div class="stat card"><div class="stat-num" id="statBlocks">۰</div><div class="stat-lbl">بلوک کامل‌شده</div></div>
+      </div>
+
+      <h3 class="section-title">📜 تاریخچه</h3>
+      <div id="logList" class="card log"></div>
+    </section>
+
+    <!-- ═══════════ تب تنظیمات ═══════════ -->
+    <section id="tab-settings" class="tab">
+      <h2 class="section-title">⚙️ تنظیمات</h2>
+
+      <div class="card">
+        <div class="row-between"><span>🔔 نوتیفیکیشن‌ها</span><span id="notifStatus" class="muted">…</span></div>
+        <button id="btnPerm2" class="btn primary full">اجازه نوتیفیکیشن</button>
+        <div class="hint">آلارم اجباری فقط با مجوز نوتیفیکیشن کار می‌کند — حتماً اجازه بده.</div>
+      </div>
+
+      <div class="card">
+        <div class="row-between"><span>🔊 صدای آلارم</span>
+          <label class="switch"><input type="checkbox" id="sndToggle"><span></span></label>
+        </div>
+        <div class="row-between"><span>🔉 بلندی صدا</span>
+          <input type="range" id="volSlider" min="0" max="1" step="0.05">
+        </div>
+        <div class="row-between"><span>📳 ویبره</span>
+          <label class="switch"><input type="checkbox" id="vibToggle"><span></span></label>
+        </div>
+        <div class="btn-row">
+          <button id="btnTestSound" class="btn">🔊 صدا</button>
+          <button id="btnTestVib" class="btn">📳 ویبره</button>
+        </div>
+        <button id="btnTestNotif" class="btn full">🔔 تست نوتیفیکیشن</button>
+        <button id="btnTestAlarm" class="btn warn full">🚨 تست آلارم کامل (صدا + ویبره + نوتیف)</button>
+      </div>
+
+      <div class="card locked-card">
+        <div class="row-between"><span>⏱ آلارم اجباریِ ۵ دقیقه‌ای</span><b class="ok-text">فعال 🔒</b></div>
+        <div class="hint">در هر فعالیتی، دقیقاً هر ۵ دقیقه یک‌بار نوتیف + صدا + ویبره می‌گیری (چه activity طولانی باشه چه کوتاه). این قابلیت همیشه روشن است و غیرقابل خاموش‌کردن است.</div>
+      </div>
+
+      <div class="card">
+        <h3>📱 تنظیمات گوشی (مهم)</h3>
+        <div class="hint">
+          <b>اندروید:</b><br>
+          • تنظیمات گوشی → اپ‌ها → کروم → Notifications → روشن + گزینه «Lock screen» تیک بخوره.<br>
+          • اگر صدای نوتیف کمه: تنظیمات → صدا → Notification volume رو بالا ببر.<br>
+          • برای ویبره: در تنظیمات نوتیف کروم، حالت ویبره فعال باشه.<br><br>
+          <b>آیفون:</b> فقط بعد از «Add to Home Screen» (iOS 16.4 به بالا) نوتیف می‌اد؛ ویبره در آیفون پشتیبانی نمی‌شه.
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>⚠️ نکته مهم</h3>
+        <div class="hint">برای اینکه آلارم قطعاً بزنه، تبِ برنامه باید باز بمونه (بک‌گراند بودنش کافیه). اگه مرورگر رو کامل ببندی، دفعه بعد که برنامه رو باز کنی، ضرب‌الاجلِ گذشته شناسایی و آلارم با تأخیر نمایش داده می‌شه.</div>
+      </div>
+
+      <div class="card">
+        <button id="btnReset" class="btn danger full">🗑 ریست امتیازها و تاریخچه</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════ ناوبری پایین ═══════════ -->
+  <nav class="bottomnav">
+    <button class="nav-btn active" data-tab="tab-timer"><span class="nav-ic">⏱</span><span>تایمر</span></button>
+    <button class="nav-btn" data-tab="tab-acts"><span class="nav-ic">🎯</span><span>فعالیت‌ها</span></button>
+    <button class="nav-btn" data-tab="tab-score"><span class="nav-ic">🏅</span><span>امتیاز</span></button>
+    <button class="nav-btn" data-tab="tab-settings"><span class="nav-ic">⚙️</span><span>تنظیمات</span></button>
+  </nav>
+
+  <!-- ═══════════ اورلی آلارم ═══════════ -->
+  <div id="alarmOverlay" class="overlay hidden">
+    <div class="alarm-box">
+      <div class="alarm-icon">⏰</div>
+      <h2 id="alarmTitle">ضرب‌الاجل رسید!</h2>
+      <p id="alarmText"></p>
+      <button id="btnOk" class="btn primary big">✓ باشه</button>
+      <button id="btnAgain" class="btn">🔄 یک دورِ دیگه</button>
+    </div>
+  </div>
+
+  <!-- ═══════════ توست ═══════════ -->
+  <div id="toast" class="toast hidden"></div>
+
+</div>
+<noscript><div style="padding:2rem;text-align:center">این برنامه به جاوااسکریپت نیاز دارد.</div></noscript>
+<script src="app.js"></script>
+</body>
+</html>
