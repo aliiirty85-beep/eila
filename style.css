@@ -131,12 +131,12 @@ h3{margin:0 0 6px;font-size:.98rem}
 
 /* ─── فرم ─── */
 .form label{display:block;font-weight:700;font-size:.88rem;margin:12px 0 6px}
-.form input{
+.form input,.form select{
   font-family:inherit;width:100%;color:var(--txt);font-size:1rem;
   background:rgba(0,0,0,.3);border:1px solid var(--card-border);
   border-radius:12px;padding:11px 13px;outline:none;
 }
-.form input:focus{border-color:var(--violet)}
+.form input:focus,.form select:focus{border-color:var(--violet)}
 .emoji-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
 .emoji-row button{
   font-size:1.2rem;background:rgba(255,255,255,.06);border:1px solid var(--card-border);
@@ -187,6 +187,48 @@ input[type=range]{accent-color:var(--gold);padding:0;border:none;background:tran
 .log-pts{font-weight:800;color:var(--green);font-size:.95rem;white-space:nowrap}
 .log-row.bad .log-pts{color:var(--red)}
 .empty{color:var(--muted);text-align:center;padding:22px 0;font-size:.9rem;line-height:2}
+
+/* ─── زیرعنوان بلوک و وضعیت ─── */
+.t-sub{color:var(--muted);font-size:.85rem;font-weight:700;margin-bottom:4px;letter-spacing:.3px}
+.status-line{min-height:22px;font-size:.86rem;font-weight:700;color:var(--gold);margin-top:6px}
+
+/* ─── کارت فعالیت جاری ─── */
+.act-running{text-align:right}
+.ar-name{font-weight:800;font-size:1rem}
+.ar-time{font-size:1.9rem;font-weight:800;color:var(--gold);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ─── مثلث خیام ─── */
+.khy-row{
+  display:flex;align-items:center;gap:10px;padding:9px 0;
+  border-bottom:1px solid rgba(255,255,255,.06);font-size:.86rem;
+}
+.khy-row:last-child{border-bottom:none}
+.khy-lv{font-weight:800;color:var(--gold);white-space:nowrap;min-width:52px}
+.khy-seq{flex:1;font-weight:600;word-spacing:4px;min-width:0}
+.khy-sum{color:var(--muted);font-size:.74rem;white-space:nowrap}
+
+/* ─── تاریخچهٔ بلوک‌ها ─── */
+.day-card{padding:16px}
+.day-head{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:.95rem;padding-bottom:6px}
+.day-total{color:var(--gold);white-space:nowrap}
+.hour-head{color:var(--violet);font-size:.8rem;font-weight:800;margin:12px 0 2px}
+.b-row{
+  display:flex;justify-content:space-between;align-items:flex-start;gap:10px;
+  padding:8px 0;border-bottom:1px dashed rgba(255,255,255,.08);
+}
+.b-row:last-child{border-bottom:none}
+.b-win{font-weight:700;font-size:.9rem;font-variant-numeric:tabular-nums}
+.b-pts{font-weight:800;color:var(--green);font-size:.95rem;white-space:nowrap}
+.b-credits{color:var(--muted);font-size:.74rem;margin-top:3px;line-height:2}
+
+/* ─── ضرب‌الاجل‌ها ─── */
+.dl-line{font-size:.78rem;margin-top:5px;line-height:2}
+.dl-badge{
+  display:inline-block;background:rgba(245,185,66,.12);
+  border:1px solid var(--amber-bd);border-radius:999px;
+  padding:1px 10px;font-size:.74rem;font-weight:700;
+}
+.bad-text{color:var(--red)}
 
 /* ─── ناوبری ─── */
 .bottomnav{

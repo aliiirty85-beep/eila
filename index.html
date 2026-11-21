@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0f1226">
-<meta name="description" content="ایلا — بلوک‌های ۵ دقیقه‌ای، ضرب‌الاجل‌ها، امتیاز و سطح، با آلارم اجباری">
+<meta name="description" content="ایلا — بلوک‌های ۵ دقیقه‌ای خودکار روی ساعت تهران، امتیازدهی با لول‌های مثلث خیام، ضرب‌الاجل‌های روزانه/هفتگی/ماهانه">
 <title>ایلا — ضرب‌الاجل و امتیاز</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
@@ -35,10 +35,11 @@
 
   <main>
 
-    <!-- ═══════════ تب تایمر ═══════════ -->
+    <!-- ═══════════ تب بلوک ۵ دقیقه‌ای ═══════════ -->
     <section id="tab-timer" class="tab active">
       <div class="card timer-card">
-        <div class="t-name" id="currentActivityName">⏱ بلوک ۵ دقیقه‌ای</div>
+        <div class="t-sub" id="blockWindow">… تا … · ساعت تهران</div>
+        <div class="t-name">🧱 بلوک ۵ دقیقه‌ای</div>
 
         <div class="ring-wrap">
           <svg viewBox="0 0 220 220" aria-hidden="true">
@@ -53,29 +54,44 @@
           </svg>
           <div class="ring-center">
             <div class="time" id="timeDisplay">۰۵:۰۰</div>
-            <div class="stake" id="stakeDisplay">۱۰ امتیاز</div>
+            <div class="stake" id="stakeDisplay">امتیاز این بلوک: ۰</div>
           </div>
         </div>
 
+        <div class="status-line" id="blockStatus"></div>
         <div class="next-alert" id="nextAlert"></div>
 
         <div class="controls">
-          <button id="btnStart" class="btn primary big">▶ شروع</button>
-          <button id="btnPause" class="btn warn hidden">⏸ توقف موقت</button>
-          <button id="btnAdd1" class="btn hidden">＋۱ دقیقه</button>
-          <button id="btnStop" class="btn danger hidden">■ قطع</button>
+          <button id="btnJoin" class="btn primary big">▶ شرکت در بلوک‌ها</button>
+          <button id="btnLeave" class="btn danger big hidden">⏹ پایان جلسه</button>
         </div>
 
-        <div class="lock-note">🔒 آلارم اجباریِ هر ۵ دقیقه — همیشه فعال</div>
+        <div class="lock-note">🔒 بلوک‌ها دقیقاً روی مضرب‌های ۵ دقیقهٔ <b>ساعت تهران</b> به‌صورت خودکار شروع و تمام می‌شوند — آلارم اجباری هم روی همین مضرب‌هاست</div>
       </div>
 
-      <h3 class="section-title">انتخاب فعالیت</h3>
+      <div class="card act-running hidden" id="actRunningCard">
+        <div class="row-between">
+          <div>
+            <div class="ar-name" id="arName">📚 …</div>
+            <div class="muted" id="arMeta">📐 لول …</div>
+          </div>
+          <div class="ar-time" id="arTime">۲۵:۰۰</div>
+        </div>
+        <div class="progress"><div class="progress-fill" id="arBar"></div></div>
+        <div class="btn-row">
+          <button id="btnPause" class="btn warn">⏸ توقف موقت</button>
+          <button id="btnAdd1" class="btn">＋۱ دقیقه</button>
+          <button id="btnStop" class="btn danger">■ قطع</button>
+        </div>
+      </div>
+
+      <h3 class="section-title">شروع یک فعالیت (امتیازش داخل بلوک جاری ثبت می‌شود)</h3>
       <div id="activityChips" class="chips"></div>
     </section>
 
     <!-- ═══════════ تب فعالیت‌ها ═══════════ -->
     <section id="tab-acts" class="tab">
-      <h2 class="section-title">🎯 فعالیت‌ها و ضرب‌الاجل‌ها</h2>
+      <h2 class="section-title">🎯 فعالیت‌ها، لول‌ها و ضرب‌الاجل‌ها</h2>
       <div id="actsList"></div>
       <button id="btnAddAct" class="btn primary full">➕ فعالیت جدید</button>
 
@@ -91,10 +107,48 @@
         <label>مدت (دقیقه)
           <input id="af-min" type="number" min="1" max="480" value="25" required>
         </label>
-        <label>امتیازِ کامل کردن این فعالیت
-          <input id="af-pts" type="number" min="0" max="9999" value="20" required>
+        <label>📐 لول امتیازدهی (مثلث خیام) — ۱ تا ۸
+          <select id="af-level">
+            <option value="1">لول ۱ — هر بار ۱ امتیاز</option>
+            <option value="2">لول ۲ — ۱، ۲، ۳، ۴، …</option>
+            <option value="3">لول ۳ — ۱، ۳، ۶، ۱۰، …</option>
+            <option value="4">لول ۴ — ۱، ۴، ۱۰، ۲۰، …</option>
+            <option value="5">لول ۵ — ۱، ۵، ۱۵، ۳۵، …</option>
+            <option value="6">لول ۶ — ۱، ۶، ۲۱، ۵۶، …</option>
+            <option value="7">لول ۷ — ۱، ۷، ۲۸، ۸۴، …</option>
+            <option value="8">لول ۸ — ۱، ۸، ۳۶، ۱۲۰، …</option>
+          </select>
         </label>
-        <div class="hint hidden" id="afNote">🔒 مدتِ «بلوک ۵ دقیقه‌ای» ثابت است و عوض نمی‌شود (مبنای آلارم اجباری).</div>
+        <div class="hint" id="afLevelPreview"></div>
+        <label>⏰ ضرب‌الاجل
+          <select id="af-dl-type">
+            <option value="none">بدون ضرب‌الاجل</option>
+            <option value="daily">روزانه</option>
+            <option value="weekly">هفتگی</option>
+            <option value="monthly">ماهانه</option>
+          </select>
+        </label>
+        <div id="afDlFields">
+          <label>ساعت ضرب‌الاجل
+            <input id="af-dl-time" type="time" value="22:00" required>
+          </label>
+          <label id="afDlWeekRow" class="hidden">روز هفته
+            <select id="af-dl-weekday">
+              <option value="6">شنبه</option>
+              <option value="0">یکشنبه</option>
+              <option value="1">دوشنبه</option>
+              <option value="2">سه‌شنبه</option>
+              <option value="3">چهارشنبه</option>
+              <option value="4">پنجشنبه</option>
+              <option value="5">جمعه</option>
+            </select>
+          </label>
+          <label id="afDlMonthRow" class="hidden">روز ماه (۱ تا ۳۱)
+            <input id="af-dl-day" type="number" min="1" max="31" value="1" required>
+          </label>
+          <div class="hint">اگر تا زمان ضرب‌الاجل، فعالیت در آن دوره انجام نشده باشد، آلارم پرقدرت می‌گیرد و دوره «از دست رفت» ثبت می‌شود.</div>
+        </div>
+        <div class="hint hidden" id="afNote">🔒 مدتِ «بلوک ۵ دقیقه‌ای» ثابت است و عوض نمی‌شود (مبنای مضرب‌های ۵ دقیقهٔ ساعت تهران).</div>
         <div class="btn-row">
           <button type="submit" class="btn primary">💾 ذخیره</button>
           <button type="button" id="afCancel" class="btn">انصراف</button>
@@ -114,12 +168,22 @@
       </div>
 
       <div class="stats">
-        <div class="stat card"><div class="stat-num" id="statToday">۰</div><div class="stat-lbl">امتیاز امروز</div></div>
-        <div class="stat card"><div class="stat-num" id="statWeek">۰</div><div class="stat-lbl">امتیاز هفته</div></div>
-        <div class="stat card"><div class="stat-num" id="statBlocks">۰</div><div class="stat-lbl">بلوک کامل‌شده</div></div>
+        <div class="stat card"><div class="stat-num" id="statToday">۰</div><div class="stat-lbl">امتیاز امروز (تهران)</div></div>
+        <div class="stat card"><div class="stat-num" id="statWeek">۰</div><div class="stat-lbl">امتیاز هفته (از شنبه)</div></div>
+        <div class="stat card"><div class="stat-num" id="statBlocks">۰</div><div class="stat-lbl">بلوک امتیازخورده</div></div>
       </div>
 
-      <h3 class="section-title">📜 تاریخچه</h3>
+      <h3 class="section-title">📐 لول‌های مثلث خیام</h3>
+      <div class="card">
+        <div id="khayamTable"></div>
+        <div class="hint">لولِ هر فعالیت را خودت تعیین می‌کنی؛ امتیاز هر بار، یک خانه از قطرِ همان لول در مثلث خیام است — «بر اساس تاریخچه، هر دفعه جلوتر، امتیاز بیشتر».<br>
+        مثال: فعالیتِ لول ۳ دفعهٔ سوم → ۱+۳+۶ = <b>۱۰ امتیاز</b> داخل بلوک ۵ دقیقه‌ای. فعالیتِ لول ۲ چهار بار → ۱+۲+۳+۴ = <b>۱۰ امتیاز</b>. هر دو در یک بلوک → <b>۲۰ امتیاز</b> برای آن بلوک.</div>
+      </div>
+
+      <h3 class="section-title">🧱 امتیاز بلوک‌ها — به تفکیک ساعت و روز</h3>
+      <div id="blockHistory"></div>
+
+      <h3 class="section-title">📜 تاریخچه فعالیت‌ها</h3>
       <div id="logList" class="card log"></div>
     </section>
 
@@ -130,7 +194,7 @@
       <div class="card">
         <div class="row-between"><span>🔔 نوتیفیکیشن‌ها</span><span id="notifStatus" class="muted">…</span></div>
         <button id="btnPerm2" class="btn primary full">اجازه نوتیفیکیشن</button>
-        <div class="hint">آلارم اجباری فقط با مجوز نوتیفیکیشن کار می‌کند — حتماً اجازه بده.</div>
+        <div class="hint">آلارم‌ها فقط با مجوز نوتیفیکیشن کامل کار می‌کنند — حتماً اجازه بده.</div>
       </div>
 
       <div class="card">
@@ -164,8 +228,8 @@
       </div>
 
       <div class="card locked-card">
-        <div class="row-between"><span>⏱ آلارم اجباریِ ۵ دقیقه‌ای</span><b class="ok-text">فعال 🔒</b></div>
-        <div class="hint">در هر فعالیتی، دقیقاً هر ۵ دقیقه یک‌بار نوتیف + صدا + ویبره می‌گیری (چه activity طولانی باشه چه کوتاه). این قابلیت همیشه روشن است و غیرقابل خاموش‌کردن است.</div>
+        <div class="row-between"><span>🧱 بلوک خودکار ۵ دقیقه‌ای — ساعت تهران</span><b class="ok-text">فعال 🔒</b></div>
+        <div class="hint">بلوک‌ها دقیقاً روی مضرب‌های ۵ دقیقهٔ ساعت تهران (۱۴:۰۵، ۱۴:۱۰، …) خودکار شروع و تمام می‌شوند؛ چیزی برای تنظیم‌کردن نیست. آلارم اجباری هم روی همین مضرب‌هاست و غیرقابل خاموش‌کردن است.</div>
       </div>
 
       <div class="card">
@@ -181,11 +245,11 @@
 
       <div class="card">
         <h3>⚠️ نکته مهم</h3>
-        <div class="hint">برای اینکه آلارم قطعاً بزنه، تبِ برنامه باید باز بمونه (بک‌گراند بودنش کافیه). اگه مرورگر رو کامل ببندی، دفعه بعد که برنامه رو باز کنی، ضرب‌الاجلِ گذشته شناسایی و آلارم با تأخیر نمایش داده می‌شه.</div>
+        <div class="hint">برای اینکه آلارم قطعاً بزنه، تبِ برنامه باید باز بمونه (بک‌گراند بودنش کافیه). اگه مرورگر رو کامل ببندی، دفعه بعد که برنامه رو باز کنی، ضرب‌الاجلِ گذشته شناسایی و آلارم با تأخیر نشان داده می‌شه.</div>
       </div>
 
       <div class="card">
-        <button id="btnReset" class="btn danger full">🗑 ریست امتیازها و تاریخچه</button>
+        <button id="btnReset" class="btn danger full">🗑 ریست امتیازها، بلوک‌ها و تاریخچه</button>
       </div>
     </section>
 
@@ -193,20 +257,20 @@
 
   <!-- ═══════════ ناوبری پایین ═══════════ -->
   <nav class="bottomnav">
-    <button class="nav-btn active" data-tab="tab-timer"><span class="nav-ic">⏱</span><span>تایمر</span></button>
+    <button class="nav-btn active" data-tab="tab-timer"><span class="nav-ic">⏱</span><span>بلوک</span></button>
     <button class="nav-btn" data-tab="tab-acts"><span class="nav-ic">🎯</span><span>فعالیت‌ها</span></button>
     <button class="nav-btn" data-tab="tab-score"><span class="nav-ic">🏅</span><span>امتیاز</span></button>
     <button class="nav-btn" data-tab="tab-settings"><span class="nav-ic">⚙️</span><span>تنظیمات</span></button>
   </nav>
 
-  <!-- ═══════════ اورلی آلارم ═══════════ -->
+  <!-- ═══════════ اورلی آلارم/تمام‌شدن ═══════════ -->
   <div id="alarmOverlay" class="overlay hidden">
     <div class="alarm-box">
       <div class="alarm-icon">⏰</div>
       <h2 id="alarmTitle">ضرب‌الاجل رسید!</h2>
       <p id="alarmText"></p>
       <button id="btnOk" class="btn primary big">✓ باشه</button>
-      <button id="btnAgain" class="btn">🔄 یک دورِ دیگه</button>
+      <button id="btnAgain" class="btn hidden">🔄 یک دورِ دیگه</button>
     </div>
   </div>
 

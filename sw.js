@@ -1,5 +1,5 @@
 /* ═════ سرویس‌ورکر ایلا: کش آفلاین + کلیک روی نوتیفیکیشن ═════ */
-const CACHE = 'eila-v3';
+const CACHE = 'eila-v4';
 const ASSETS = [
   './',
   './index.html',

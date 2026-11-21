@@ -4,7 +4,7 @@
   "private": true,
   "description": "ایلا — ضرب‌الاجل، امتیاز و سطح (PWA فارسی)",
   "scripts": {
-    "test": "node smoke.test.mjs"
+    "test": "node smoke.test.mjs && node sim.test.mjs"
   },
   "devDependencies": {
     "jsdom": "^31.0.1"
