@@ -130,6 +130,9 @@ function vibrate(pattern) {
 }
 
 /* ═══════════════════════ نوتیفیکیشن ═══════════════════════ */
+/* آیکون نوتیف: در نسخهٔ چندفایلی مسیر نسبی، در نسخهٔ تک‌فایل (eila.html)
+   با اسکریپت build_single.py به data-URI تبدیل می‌شود تا هیچ مشکلی از مسیر نباشد. */
+const NOTIF_ICON = './icons/icon-192.png';
 function notifSupported() { return 'Notification' in window; }
 
 async function ensurePermission() {
@@ -142,8 +145,8 @@ async function showNotif(title, body, extra = {}) {
   if (!notifSupported() || Notification.permission !== 'granted') return;
   const opts = {
     body, dir: 'rtl', lang: 'fa',
-    icon: './icons/icon-192.png',
-    badge: './icons/icon-192.png',
+    icon: NOTIF_ICON,
+    badge: NOTIF_ICON,
     tag: extra.tag || 'eila',
     renotify: !!extra.renotify,
     requireInteraction: !!extra.requireInteraction,
@@ -717,8 +720,13 @@ function bindEvents() {
 }
 
 async function registerSW() {
+  /* سرویس‌ورکر فقط روی http/https کار می‌کند؛ روی file:// (باز کردن مستقیم فایل)
+     اصلاً تلاش نکن تا خطای مسیر نگیری — برنامه بدون SW هم کامل کار می‌کند. */
   try {
-    if ('serviceWorker' in navigator) await navigator.serviceWorker.register('./sw.js');
+    const proto = location.protocol;
+    if ((proto === 'http:' || proto === 'https:') && 'serviceWorker' in navigator) {
+      await navigator.serviceWorker.register('./sw.js');
+    }
   } catch (e) { console.warn('SW:', e); }
 }
 
