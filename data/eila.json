@@ -1,7 +1,7 @@
 {
   "app": "Eila",
   "backupVersion": 1,
-  "createdAt": "2026-11-22T14:06:14.757Z",
+  "createdAt": "2026-11-22T15:26:11.439Z",
   "data": {
     "days": {
       "2026-11-21": {
@@ -2261,6 +2261,134 @@
             "values": [],
             "score": 0,
             "lockedAt": "2026-11-22T14:05:10.209Z"
+          },
+          "17:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:10:10.188Z"
+          },
+          "17:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:15:10.191Z"
+          },
+          "17:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:20:10.170Z"
+          },
+          "17:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:25:10.175Z"
+          },
+          "18:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:30:10.173Z"
+          },
+          "18:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:35:10.195Z"
+          },
+          "18:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:40:10.173Z"
+          },
+          "18:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T14:45:10.173Z"
+          },
+          "18:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.207Z"
+          },
+          "18:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.222Z"
+          },
+          "18:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.231Z"
+          },
+          "18:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.236Z"
+          },
+          "18:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.257Z"
+          },
+          "18:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.264Z"
+          },
+          "18:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:20:54.329Z"
+          },
+          "18:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T15:25:10.173Z"
           }
         },
         "activityCounts": {},
