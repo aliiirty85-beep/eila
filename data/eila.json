@@ -1,0 +1,2261 @@
+{
+  "app": "Eila",
+  "backupVersion": 1,
+  "createdAt": "2026-11-22T13:49:11.778Z",
+  "data": {
+    "days": {
+      "2026-11-21": {
+        "blocks": {
+          "8:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.056Z"
+          },
+          "8:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.060Z"
+          },
+          "8:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.063Z"
+          },
+          "8:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.068Z"
+          },
+          "8:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.072Z"
+          },
+          "8:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.075Z"
+          },
+          "8:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.078Z"
+          },
+          "8:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.081Z"
+          },
+          "8:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.085Z"
+          },
+          "8:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.088Z"
+          },
+          "8:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.091Z"
+          },
+          "9:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.094Z"
+          },
+          "9:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.097Z"
+          },
+          "9:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.100Z"
+          },
+          "9:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.103Z"
+          },
+          "9:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.105Z"
+          },
+          "9:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.108Z"
+          },
+          "9:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.111Z"
+          },
+          "9:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.114Z"
+          },
+          "9:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.117Z"
+          },
+          "9:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.120Z"
+          },
+          "9:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.123Z"
+          },
+          "9:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.125Z"
+          },
+          "10:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.128Z"
+          },
+          "10:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.131Z"
+          },
+          "10:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.134Z"
+          },
+          "10:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.137Z"
+          },
+          "10:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.140Z"
+          },
+          "10:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.143Z"
+          },
+          "10:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.146Z"
+          },
+          "10:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.149Z"
+          },
+          "10:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.151Z"
+          },
+          "10:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.154Z"
+          },
+          "10:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.158Z"
+          },
+          "10:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.161Z"
+          },
+          "11:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.163Z"
+          },
+          "11:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.166Z"
+          },
+          "11:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.169Z"
+          },
+          "11:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.172Z"
+          },
+          "11:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.175Z"
+          },
+          "11:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.178Z"
+          },
+          "11:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.181Z"
+          },
+          "11:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.183Z"
+          },
+          "11:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.186Z"
+          },
+          "11:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.190Z"
+          },
+          "11:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.195Z"
+          },
+          "11:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.198Z"
+          },
+          "12:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.200Z"
+          },
+          "12:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.203Z"
+          },
+          "12:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.206Z"
+          },
+          "12:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.209Z"
+          },
+          "12:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.212Z"
+          },
+          "12:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.214Z"
+          },
+          "12:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.217Z"
+          },
+          "12:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.220Z"
+          },
+          "12:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.223Z"
+          },
+          "12:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.226Z"
+          },
+          "12:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.229Z"
+          },
+          "12:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.231Z"
+          },
+          "13:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.234Z"
+          },
+          "13:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.237Z"
+          },
+          "13:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.240Z"
+          },
+          "13:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.243Z"
+          },
+          "13:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.246Z"
+          },
+          "13:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.249Z"
+          },
+          "13:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.252Z"
+          },
+          "13:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.258Z"
+          },
+          "13:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.263Z"
+          },
+          "13:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.269Z"
+          },
+          "13:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.274Z"
+          },
+          "13:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.279Z"
+          },
+          "14:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.282Z"
+          },
+          "14:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.286Z"
+          },
+          "14:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.292Z"
+          },
+          "14:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.296Z"
+          },
+          "14:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.299Z"
+          },
+          "14:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.305Z"
+          },
+          "14:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.312Z"
+          },
+          "14:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.316Z"
+          },
+          "14:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.321Z"
+          },
+          "14:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.326Z"
+          },
+          "14:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.330Z"
+          },
+          "14:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.333Z"
+          },
+          "15:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.336Z"
+          },
+          "15:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.338Z"
+          },
+          "15:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.342Z"
+          },
+          "15:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.345Z"
+          },
+          "15:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.347Z"
+          },
+          "15:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.351Z"
+          },
+          "15:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.354Z"
+          },
+          "15:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.357Z"
+          },
+          "15:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.359Z"
+          },
+          "15:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.362Z"
+          },
+          "15:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.365Z"
+          },
+          "15:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.368Z"
+          },
+          "16:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.371Z"
+          },
+          "16:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.375Z"
+          },
+          "16:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.378Z"
+          },
+          "16:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.381Z"
+          },
+          "16:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.384Z"
+          },
+          "16:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.387Z"
+          },
+          "16:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.389Z"
+          },
+          "16:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.392Z"
+          },
+          "16:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.395Z"
+          },
+          "16:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.398Z"
+          },
+          "16:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.401Z"
+          },
+          "16:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.404Z"
+          },
+          "17:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.407Z"
+          },
+          "17:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.410Z"
+          },
+          "17:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.413Z"
+          },
+          "17:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.416Z"
+          },
+          "17:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.419Z"
+          },
+          "17:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.422Z"
+          },
+          "17:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.425Z"
+          },
+          "17:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.428Z"
+          },
+          "17:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:15:13.431Z"
+          },
+          "17:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:16:00.055Z"
+          },
+          "17:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:21:00.115Z"
+          },
+          "17:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:26:00.107Z"
+          },
+          "18:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:31:09.741Z"
+          },
+          "18:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:36:09.754Z"
+          },
+          "18:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:41:00.745Z"
+          },
+          "18:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:46:09.745Z"
+          },
+          "18:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:51:09.744Z"
+          },
+          "18:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T14:56:09.738Z"
+          },
+          "18:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:01:09.738Z"
+          },
+          "18:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:06:09.737Z"
+          },
+          "18:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:11:09.739Z"
+          },
+          "18:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:16:09.744Z"
+          },
+          "18:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:21:09.750Z"
+          },
+          "18:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:26:09.747Z"
+          },
+          "19:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:31:09.746Z"
+          },
+          "19:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:36:09.741Z"
+          },
+          "19:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T15:41:09.735Z"
+          },
+          "19:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:27.695Z"
+          },
+          "19:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:27.710Z"
+          },
+          "19:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:27.721Z"
+          },
+          "19:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:27.729Z"
+          },
+          "19:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.015Z"
+          },
+          "19:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.029Z"
+          },
+          "19:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.050Z"
+          },
+          "19:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.322Z"
+          },
+          "19:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.340Z"
+          },
+          "20:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.354Z"
+          },
+          "20:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.383Z"
+          },
+          "20:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.394Z"
+          },
+          "20:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.403Z"
+          },
+          "20:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.414Z"
+          },
+          "20:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.448Z"
+          },
+          "20:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.455Z"
+          },
+          "20:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:07:28.466Z"
+          },
+          "20:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:11:09.748Z"
+          },
+          "20:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:16:09.746Z"
+          },
+          "20:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:21:09.743Z"
+          },
+          "20:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:26:09.739Z"
+          },
+          "21:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": false,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:31:09.736Z"
+          },
+          "21:05": {
+            "locked": true,
+            "missed": false,
+            "confirmed": true,
+            "values": [
+              10
+            ],
+            "score": 10,
+            "lockedAt": "2026-11-21T17:35:00.735Z"
+          },
+          "21:10": {
+            "locked": true,
+            "missed": false,
+            "confirmed": true,
+            "values": [
+              1
+            ],
+            "score": 1,
+            "lockedAt": "2026-11-21T17:40:00.733Z"
+          },
+          "21:15": {
+            "locked": true,
+            "missed": false,
+            "confirmed": true,
+            "values": [
+              5
+            ],
+            "score": 5,
+            "lockedAt": "2026-11-21T17:45:00.720Z"
+          },
+          "21:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:50:00.731Z"
+          },
+          "21:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T17:55:00.731Z"
+          },
+          "21:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T18:00:09.783Z"
+          },
+          "21:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-21T18:05:00.721Z"
+          },
+          "21:40": {
+            "locked": true,
+            "missed": false,
+            "confirmed": true,
+            "values": [
+              3
+            ],
+            "score": 3,
+            "lockedAt": "2026-11-21T18:10:00.728Z"
+          },
+          "21:45": {
+            "locked": true,
+            "missed": false,
+            "confirmed": true,
+            "values": [
+              3
+            ],
+            "score": 3,
+            "lockedAt": "2026-11-21T18:15:09.747Z"
+          }
+        },
+        "activityCounts": {},
+        "created": "2026-11-21"
+      },
+      "2026-11-22": {
+        "blocks": {
+          "8:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.153Z"
+          },
+          "8:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.167Z"
+          },
+          "8:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.177Z"
+          },
+          "8:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.185Z"
+          },
+          "8:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.193Z"
+          },
+          "8:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.198Z"
+          },
+          "8:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.204Z"
+          },
+          "8:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.211Z"
+          },
+          "8:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.215Z"
+          },
+          "8:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.220Z"
+          },
+          "8:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.224Z"
+          },
+          "9:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.229Z"
+          },
+          "9:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.233Z"
+          },
+          "9:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.239Z"
+          },
+          "9:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.243Z"
+          },
+          "9:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.247Z"
+          },
+          "9:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.252Z"
+          },
+          "9:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.256Z"
+          },
+          "9:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.260Z"
+          },
+          "9:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.264Z"
+          },
+          "9:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.268Z"
+          },
+          "9:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.272Z"
+          },
+          "9:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.276Z"
+          },
+          "10:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.280Z"
+          },
+          "10:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.284Z"
+          },
+          "10:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.289Z"
+          },
+          "10:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.293Z"
+          },
+          "10:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.297Z"
+          },
+          "10:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.301Z"
+          },
+          "10:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.305Z"
+          },
+          "10:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.309Z"
+          },
+          "10:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.313Z"
+          },
+          "10:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.317Z"
+          },
+          "10:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.321Z"
+          },
+          "10:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.326Z"
+          },
+          "11:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.329Z"
+          },
+          "11:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.333Z"
+          },
+          "11:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.337Z"
+          },
+          "11:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.342Z"
+          },
+          "11:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.347Z"
+          },
+          "11:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.351Z"
+          },
+          "11:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.354Z"
+          },
+          "11:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.359Z"
+          },
+          "11:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.363Z"
+          },
+          "11:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.367Z"
+          },
+          "11:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.371Z"
+          },
+          "11:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.375Z"
+          },
+          "12:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.380Z"
+          },
+          "12:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.384Z"
+          },
+          "12:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.387Z"
+          },
+          "12:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.392Z"
+          },
+          "12:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.396Z"
+          },
+          "12:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.400Z"
+          },
+          "12:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.404Z"
+          },
+          "12:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.408Z"
+          },
+          "12:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.414Z"
+          },
+          "12:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.418Z"
+          },
+          "12:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.422Z"
+          },
+          "12:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.426Z"
+          },
+          "13:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.430Z"
+          },
+          "13:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.434Z"
+          },
+          "13:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.438Z"
+          },
+          "13:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.442Z"
+          },
+          "13:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.446Z"
+          },
+          "13:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.450Z"
+          },
+          "13:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.455Z"
+          },
+          "13:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.459Z"
+          },
+          "13:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.463Z"
+          },
+          "13:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.467Z"
+          },
+          "13:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.471Z"
+          },
+          "13:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.475Z"
+          },
+          "14:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.478Z"
+          },
+          "14:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.481Z"
+          },
+          "14:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.485Z"
+          },
+          "14:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.488Z"
+          },
+          "14:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.491Z"
+          },
+          "14:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.494Z"
+          },
+          "14:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.497Z"
+          },
+          "14:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.500Z"
+          },
+          "14:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.504Z"
+          },
+          "14:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.507Z"
+          },
+          "14:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.510Z"
+          },
+          "14:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.513Z"
+          },
+          "15:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.516Z"
+          },
+          "15:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.520Z"
+          },
+          "15:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.523Z"
+          },
+          "15:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.526Z"
+          },
+          "15:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.530Z"
+          },
+          "15:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.533Z"
+          },
+          "15:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.536Z"
+          },
+          "15:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.539Z"
+          },
+          "15:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.543Z"
+          },
+          "15:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.546Z"
+          },
+          "15:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.549Z"
+          },
+          "15:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.552Z"
+          },
+          "16:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.555Z"
+          },
+          "16:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.560Z"
+          },
+          "16:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.563Z"
+          },
+          "16:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.566Z"
+          },
+          "16:20": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.569Z"
+          },
+          "16:25": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.572Z"
+          },
+          "16:30": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.575Z"
+          },
+          "16:35": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.579Z"
+          },
+          "16:40": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.582Z"
+          },
+          "16:45": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.585Z"
+          },
+          "16:50": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.588Z"
+          },
+          "16:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.591Z"
+          },
+          "17:00": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.595Z"
+          },
+          "17:05": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.598Z"
+          },
+          "17:10": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.601Z"
+          },
+          "17:15": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-22T13:48:05.604Z"
+          }
+        },
+        "activityCounts": {},
+        "created": "2026-11-22"
+      }
+    },
+    "activities": [],
+    "settings": {
+      "windowSec": 60
+    },
+    "schema": 2,
+    "drafts": {
+      "2026-11-21_21:05": {
+        "text": "10"
+      },
+      "2026-11-21_21:10": {
+        "text": "1"
+      },
+      "2026-11-21_21:15": {
+        "text": "5"
+      },
+      "2026-11-21_21:40": {
+        "text": "3"
+      },
+      "2026-11-21_21:45": {
+        "text": "3"
+      }
+    }
+  }
+}
