@@ -1,7 +1,7 @@
 {
   "app": "Eila",
   "backupVersion": 1,
-  "createdAt": "2026-11-22T14:06:11.439Z",
+  "createdAt": "2026-11-22T14:06:14.757Z",
   "data": {
     "days": {
       "2026-11-21": {
@@ -2244,7 +2244,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T13:55:00.434Z"
+            "lockedAt": "2026-11-22T13:55:10.176Z"
           },
           "17:30": {
             "locked": true,
@@ -2252,7 +2252,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T14:00:10.218Z"
+            "lockedAt": "2026-11-22T14:00:10.191Z"
           },
           "17:35": {
             "locked": true,
@@ -2260,7 +2260,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T14:05:10.248Z"
+            "lockedAt": "2026-11-22T14:05:10.209Z"
           }
         },
         "activityCounts": {},
