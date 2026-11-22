@@ -1,7 +1,7 @@
 {
   "app": "Eila",
   "backupVersion": 1,
-  "createdAt": "2026-11-22T15:30:10.306Z",
+  "createdAt": "2026-11-22T15:30:42.931Z",
   "data": {
     "days": {
       "2026-11-22": {
@@ -12,7 +12,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.263Z"
+            "lockedAt": "2026-11-22T15:19:10.747Z"
           },
           "8:10": {
             "locked": true,
@@ -20,7 +20,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.274Z"
+            "lockedAt": "2026-11-22T15:19:10.759Z"
           },
           "8:15": {
             "locked": true,
@@ -28,7 +28,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.287Z"
+            "lockedAt": "2026-11-22T15:19:10.766Z"
           },
           "8:20": {
             "locked": true,
@@ -36,7 +36,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.295Z"
+            "lockedAt": "2026-11-22T15:19:10.772Z"
           },
           "8:25": {
             "locked": true,
@@ -44,7 +44,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.302Z"
+            "lockedAt": "2026-11-22T15:19:10.780Z"
           },
           "8:30": {
             "locked": true,
@@ -52,7 +52,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.306Z"
+            "lockedAt": "2026-11-22T15:19:10.785Z"
           },
           "8:35": {
             "locked": true,
@@ -60,7 +60,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.311Z"
+            "lockedAt": "2026-11-22T15:19:10.792Z"
           },
           "8:40": {
             "locked": true,
@@ -68,7 +68,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.316Z"
+            "lockedAt": "2026-11-22T15:19:10.798Z"
           },
           "8:45": {
             "locked": true,
@@ -76,7 +76,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.320Z"
+            "lockedAt": "2026-11-22T15:19:10.807Z"
           },
           "8:50": {
             "locked": true,
@@ -84,7 +84,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.324Z"
+            "lockedAt": "2026-11-22T15:19:10.813Z"
           },
           "8:55": {
             "locked": true,
@@ -92,7 +92,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.327Z"
+            "lockedAt": "2026-11-22T15:19:10.818Z"
           },
           "9:00": {
             "locked": true,
@@ -100,7 +100,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.330Z"
+            "lockedAt": "2026-11-22T15:19:10.824Z"
           },
           "9:05": {
             "locked": true,
@@ -108,7 +108,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.333Z"
+            "lockedAt": "2026-11-22T15:19:10.830Z"
           },
           "9:10": {
             "locked": true,
@@ -116,7 +116,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.336Z"
+            "lockedAt": "2026-11-22T15:19:10.837Z"
           },
           "9:15": {
             "locked": true,
@@ -124,7 +124,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.339Z"
+            "lockedAt": "2026-11-22T15:19:10.845Z"
           },
           "9:20": {
             "locked": true,
@@ -132,7 +132,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.341Z"
+            "lockedAt": "2026-11-22T15:19:10.853Z"
           },
           "9:25": {
             "locked": true,
@@ -140,7 +140,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.344Z"
+            "lockedAt": "2026-11-22T15:19:10.860Z"
           },
           "9:30": {
             "locked": true,
@@ -148,7 +148,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.347Z"
+            "lockedAt": "2026-11-22T15:19:10.868Z"
           },
           "9:35": {
             "locked": true,
@@ -156,7 +156,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.350Z"
+            "lockedAt": "2026-11-22T15:19:10.874Z"
           },
           "9:40": {
             "locked": true,
@@ -164,7 +164,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.353Z"
+            "lockedAt": "2026-11-22T15:19:10.884Z"
           },
           "9:45": {
             "locked": true,
@@ -172,7 +172,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.357Z"
+            "lockedAt": "2026-11-22T15:19:10.892Z"
           },
           "9:50": {
             "locked": true,
@@ -180,7 +180,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.360Z"
+            "lockedAt": "2026-11-22T15:19:10.897Z"
           },
           "9:55": {
             "locked": true,
@@ -188,7 +188,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.364Z"
+            "lockedAt": "2026-11-22T15:19:10.904Z"
           },
           "10:00": {
             "locked": true,
@@ -196,7 +196,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.366Z"
+            "lockedAt": "2026-11-22T15:19:10.910Z"
           },
           "10:05": {
             "locked": true,
@@ -204,7 +204,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.369Z"
+            "lockedAt": "2026-11-22T15:19:10.918Z"
           },
           "10:10": {
             "locked": true,
@@ -212,7 +212,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.373Z"
+            "lockedAt": "2026-11-22T15:19:10.927Z"
           },
           "10:15": {
             "locked": true,
@@ -220,7 +220,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.376Z"
+            "lockedAt": "2026-11-22T15:19:10.934Z"
           },
           "10:20": {
             "locked": true,
@@ -228,7 +228,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.379Z"
+            "lockedAt": "2026-11-22T15:19:10.940Z"
           },
           "10:25": {
             "locked": true,
@@ -236,7 +236,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.381Z"
+            "lockedAt": "2026-11-22T15:19:10.946Z"
           },
           "10:30": {
             "locked": true,
@@ -244,7 +244,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.384Z"
+            "lockedAt": "2026-11-22T15:19:10.953Z"
           },
           "10:35": {
             "locked": true,
@@ -252,7 +252,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.387Z"
+            "lockedAt": "2026-11-22T15:19:10.961Z"
           },
           "10:40": {
             "locked": true,
@@ -260,7 +260,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.389Z"
+            "lockedAt": "2026-11-22T15:19:10.968Z"
           },
           "10:45": {
             "locked": true,
@@ -268,7 +268,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.392Z"
+            "lockedAt": "2026-11-22T15:19:10.975Z"
           },
           "10:50": {
             "locked": true,
@@ -276,7 +276,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.395Z"
+            "lockedAt": "2026-11-22T15:19:10.983Z"
           },
           "10:55": {
             "locked": true,
@@ -284,7 +284,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.398Z"
+            "lockedAt": "2026-11-22T15:19:10.991Z"
           },
           "11:00": {
             "locked": true,
@@ -292,7 +292,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.401Z"
+            "lockedAt": "2026-11-22T15:19:10.998Z"
           },
           "11:05": {
             "locked": true,
@@ -300,7 +300,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.403Z"
+            "lockedAt": "2026-11-22T15:19:11.003Z"
           },
           "11:10": {
             "locked": true,
@@ -308,7 +308,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.406Z"
+            "lockedAt": "2026-11-22T15:19:11.010Z"
           },
           "11:15": {
             "locked": true,
@@ -316,7 +316,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.409Z"
+            "lockedAt": "2026-11-22T15:19:11.015Z"
           },
           "11:20": {
             "locked": true,
@@ -324,7 +324,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.412Z"
+            "lockedAt": "2026-11-22T15:19:11.021Z"
           },
           "11:25": {
             "locked": true,
@@ -332,7 +332,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.414Z"
+            "lockedAt": "2026-11-22T15:19:11.027Z"
           },
           "11:30": {
             "locked": true,
@@ -340,7 +340,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.417Z"
+            "lockedAt": "2026-11-22T15:19:11.033Z"
           },
           "11:35": {
             "locked": true,
@@ -348,7 +348,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.420Z"
+            "lockedAt": "2026-11-22T15:19:11.041Z"
           },
           "11:40": {
             "locked": true,
@@ -356,7 +356,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.422Z"
+            "lockedAt": "2026-11-22T15:19:11.050Z"
           },
           "11:45": {
             "locked": true,
@@ -364,7 +364,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.425Z"
+            "lockedAt": "2026-11-22T15:19:11.055Z"
           },
           "11:50": {
             "locked": true,
@@ -372,7 +372,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.428Z"
+            "lockedAt": "2026-11-22T15:19:11.064Z"
           },
           "11:55": {
             "locked": true,
@@ -380,7 +380,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.431Z"
+            "lockedAt": "2026-11-22T15:19:11.070Z"
           },
           "12:00": {
             "locked": true,
@@ -388,7 +388,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.433Z"
+            "lockedAt": "2026-11-22T15:19:11.077Z"
           },
           "12:05": {
             "locked": true,
@@ -396,7 +396,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.436Z"
+            "lockedAt": "2026-11-22T15:19:11.083Z"
           },
           "12:10": {
             "locked": true,
@@ -404,7 +404,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.439Z"
+            "lockedAt": "2026-11-22T15:19:11.090Z"
           },
           "12:15": {
             "locked": true,
@@ -412,7 +412,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.442Z"
+            "lockedAt": "2026-11-22T15:19:11.096Z"
           },
           "12:20": {
             "locked": true,
@@ -420,7 +420,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.445Z"
+            "lockedAt": "2026-11-22T15:19:11.102Z"
           },
           "12:25": {
             "locked": true,
@@ -428,7 +428,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.448Z"
+            "lockedAt": "2026-11-22T15:19:11.108Z"
           },
           "12:30": {
             "locked": true,
@@ -436,7 +436,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.451Z"
+            "lockedAt": "2026-11-22T15:19:11.114Z"
           },
           "12:35": {
             "locked": true,
@@ -444,7 +444,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.453Z"
+            "lockedAt": "2026-11-22T15:19:11.119Z"
           },
           "12:40": {
             "locked": true,
@@ -452,7 +452,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.456Z"
+            "lockedAt": "2026-11-22T15:19:11.124Z"
           },
           "12:45": {
             "locked": true,
@@ -460,7 +460,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.459Z"
+            "lockedAt": "2026-11-22T15:19:11.130Z"
           },
           "12:50": {
             "locked": true,
@@ -468,7 +468,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.462Z"
+            "lockedAt": "2026-11-22T15:19:11.136Z"
           },
           "12:55": {
             "locked": true,
@@ -476,7 +476,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.465Z"
+            "lockedAt": "2026-11-22T15:19:11.141Z"
           },
           "13:00": {
             "locked": true,
@@ -484,7 +484,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.467Z"
+            "lockedAt": "2026-11-22T15:19:11.147Z"
           },
           "13:05": {
             "locked": true,
@@ -492,7 +492,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.470Z"
+            "lockedAt": "2026-11-22T15:19:11.153Z"
           },
           "13:10": {
             "locked": true,
@@ -500,7 +500,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.473Z"
+            "lockedAt": "2026-11-22T15:19:11.159Z"
           },
           "13:15": {
             "locked": true,
@@ -508,7 +508,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.475Z"
+            "lockedAt": "2026-11-22T15:19:11.164Z"
           },
           "13:20": {
             "locked": true,
@@ -516,7 +516,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.478Z"
+            "lockedAt": "2026-11-22T15:19:11.170Z"
           },
           "13:25": {
             "locked": true,
@@ -524,7 +524,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.481Z"
+            "lockedAt": "2026-11-22T15:19:11.176Z"
           },
           "13:30": {
             "locked": true,
@@ -532,7 +532,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.484Z"
+            "lockedAt": "2026-11-22T15:19:11.183Z"
           },
           "13:35": {
             "locked": true,
@@ -540,7 +540,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.487Z"
+            "lockedAt": "2026-11-22T15:19:11.189Z"
           },
           "13:40": {
             "locked": true,
@@ -548,7 +548,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.489Z"
+            "lockedAt": "2026-11-22T15:19:11.194Z"
           },
           "13:45": {
             "locked": true,
@@ -556,7 +556,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.492Z"
+            "lockedAt": "2026-11-22T15:19:11.200Z"
           },
           "13:50": {
             "locked": true,
@@ -564,7 +564,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.496Z"
+            "lockedAt": "2026-11-22T15:19:11.206Z"
           },
           "13:55": {
             "locked": true,
@@ -572,7 +572,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.499Z"
+            "lockedAt": "2026-11-22T15:19:11.212Z"
           },
           "14:00": {
             "locked": true,
@@ -580,7 +580,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.501Z"
+            "lockedAt": "2026-11-22T15:19:11.217Z"
           },
           "14:05": {
             "locked": true,
@@ -588,7 +588,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.505Z"
+            "lockedAt": "2026-11-22T15:19:11.223Z"
           },
           "14:10": {
             "locked": true,
@@ -596,7 +596,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.509Z"
+            "lockedAt": "2026-11-22T15:19:11.228Z"
           },
           "14:15": {
             "locked": true,
@@ -604,7 +604,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.512Z"
+            "lockedAt": "2026-11-22T15:19:11.234Z"
           },
           "14:20": {
             "locked": true,
@@ -612,7 +612,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.515Z"
+            "lockedAt": "2026-11-22T15:19:11.240Z"
           },
           "14:25": {
             "locked": true,
@@ -620,7 +620,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.519Z"
+            "lockedAt": "2026-11-22T15:19:11.246Z"
           },
           "14:30": {
             "locked": true,
@@ -628,7 +628,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.522Z"
+            "lockedAt": "2026-11-22T15:19:11.252Z"
           },
           "14:35": {
             "locked": true,
@@ -636,7 +636,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.524Z"
+            "lockedAt": "2026-11-22T15:19:11.258Z"
           },
           "14:40": {
             "locked": true,
@@ -644,7 +644,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.528Z"
+            "lockedAt": "2026-11-22T15:19:11.264Z"
           },
           "14:45": {
             "locked": true,
@@ -652,7 +652,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.531Z"
+            "lockedAt": "2026-11-22T15:19:11.274Z"
           },
           "14:50": {
             "locked": true,
@@ -660,7 +660,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.534Z"
+            "lockedAt": "2026-11-22T15:19:11.280Z"
           },
           "14:55": {
             "locked": true,
@@ -668,7 +668,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.537Z"
+            "lockedAt": "2026-11-22T15:19:11.286Z"
           },
           "15:00": {
             "locked": true,
@@ -676,7 +676,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.540Z"
+            "lockedAt": "2026-11-22T15:19:11.292Z"
           },
           "15:05": {
             "locked": true,
@@ -684,7 +684,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.543Z"
+            "lockedAt": "2026-11-22T15:19:11.298Z"
           },
           "15:10": {
             "locked": true,
@@ -692,7 +692,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.546Z"
+            "lockedAt": "2026-11-22T15:19:11.307Z"
           },
           "15:15": {
             "locked": true,
@@ -700,7 +700,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.549Z"
+            "lockedAt": "2026-11-22T15:19:11.312Z"
           },
           "15:20": {
             "locked": true,
@@ -708,7 +708,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.551Z"
+            "lockedAt": "2026-11-22T15:19:11.318Z"
           },
           "15:25": {
             "locked": true,
@@ -716,7 +716,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.554Z"
+            "lockedAt": "2026-11-22T15:19:11.323Z"
           },
           "15:30": {
             "locked": true,
@@ -724,7 +724,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.557Z"
+            "lockedAt": "2026-11-22T15:19:11.328Z"
           },
           "15:35": {
             "locked": true,
@@ -732,7 +732,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.561Z"
+            "lockedAt": "2026-11-22T15:19:11.334Z"
           },
           "15:40": {
             "locked": true,
@@ -740,7 +740,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.564Z"
+            "lockedAt": "2026-11-22T15:19:11.340Z"
           },
           "15:45": {
             "locked": true,
@@ -748,7 +748,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.566Z"
+            "lockedAt": "2026-11-22T15:19:11.346Z"
           },
           "15:50": {
             "locked": true,
@@ -756,7 +756,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.569Z"
+            "lockedAt": "2026-11-22T15:19:11.354Z"
           },
           "15:55": {
             "locked": true,
@@ -764,7 +764,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.572Z"
+            "lockedAt": "2026-11-22T15:19:11.360Z"
           },
           "16:00": {
             "locked": true,
@@ -772,7 +772,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.574Z"
+            "lockedAt": "2026-11-22T15:19:11.366Z"
           },
           "16:05": {
             "locked": true,
@@ -780,7 +780,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.578Z"
+            "lockedAt": "2026-11-22T15:19:11.374Z"
           },
           "16:10": {
             "locked": true,
@@ -788,7 +788,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.581Z"
+            "lockedAt": "2026-11-22T15:19:11.380Z"
           },
           "16:15": {
             "locked": true,
@@ -796,7 +796,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.583Z"
+            "lockedAt": "2026-11-22T15:19:11.388Z"
           },
           "16:20": {
             "locked": true,
@@ -804,7 +804,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.586Z"
+            "lockedAt": "2026-11-22T15:19:11.394Z"
           },
           "16:25": {
             "locked": true,
@@ -812,7 +812,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.589Z"
+            "lockedAt": "2026-11-22T15:19:11.403Z"
           },
           "16:30": {
             "locked": true,
@@ -820,7 +820,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.592Z"
+            "lockedAt": "2026-11-22T15:19:11.413Z"
           },
           "16:35": {
             "locked": true,
@@ -828,7 +828,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.595Z"
+            "lockedAt": "2026-11-22T15:19:11.423Z"
           },
           "16:40": {
             "locked": true,
@@ -836,7 +836,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.598Z"
+            "lockedAt": "2026-11-22T15:19:11.430Z"
           },
           "16:45": {
             "locked": true,
@@ -844,7 +844,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.600Z"
+            "lockedAt": "2026-11-22T15:19:11.436Z"
           },
           "16:50": {
             "locked": true,
@@ -852,7 +852,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.603Z"
+            "lockedAt": "2026-11-22T15:19:11.444Z"
           },
           "16:55": {
             "locked": true,
@@ -860,7 +860,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.606Z"
+            "lockedAt": "2026-11-22T15:19:11.455Z"
           },
           "17:00": {
             "locked": true,
@@ -868,7 +868,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.609Z"
+            "lockedAt": "2026-11-22T15:19:11.460Z"
           },
           "17:05": {
             "locked": true,
@@ -876,7 +876,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.612Z"
+            "lockedAt": "2026-11-22T15:19:11.466Z"
           },
           "17:10": {
             "locked": true,
@@ -884,7 +884,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.614Z"
+            "lockedAt": "2026-11-22T15:19:11.472Z"
           },
           "17:15": {
             "locked": true,
@@ -892,7 +892,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.617Z"
+            "lockedAt": "2026-11-22T15:19:11.479Z"
           },
           "17:20": {
             "locked": true,
@@ -900,7 +900,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.620Z"
+            "lockedAt": "2026-11-22T15:19:11.486Z"
           },
           "17:25": {
             "locked": true,
@@ -908,7 +908,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.623Z"
+            "lockedAt": "2026-11-22T15:19:11.497Z"
           },
           "17:30": {
             "locked": true,
@@ -916,7 +916,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.626Z"
+            "lockedAt": "2026-11-22T15:19:11.502Z"
           },
           "17:35": {
             "locked": true,
@@ -924,7 +924,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.629Z"
+            "lockedAt": "2026-11-22T15:19:11.508Z"
           },
           "17:40": {
             "locked": true,
@@ -932,7 +932,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.632Z"
+            "lockedAt": "2026-11-22T15:19:11.513Z"
           },
           "17:45": {
             "locked": true,
@@ -940,7 +940,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.637Z"
+            "lockedAt": "2026-11-22T15:19:11.519Z"
           },
           "17:50": {
             "locked": true,
@@ -948,7 +948,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.641Z"
+            "lockedAt": "2026-11-22T15:19:11.525Z"
           },
           "17:55": {
             "locked": true,
@@ -956,7 +956,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.645Z"
+            "lockedAt": "2026-11-22T15:19:11.531Z"
           },
           "18:00": {
             "locked": true,
@@ -964,7 +964,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.649Z"
+            "lockedAt": "2026-11-22T15:19:11.537Z"
           },
           "18:05": {
             "locked": true,
@@ -972,7 +972,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.651Z"
+            "lockedAt": "2026-11-22T15:19:11.545Z"
           },
           "18:10": {
             "locked": true,
@@ -980,7 +980,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.655Z"
+            "lockedAt": "2026-11-22T15:19:11.551Z"
           },
           "18:15": {
             "locked": true,
@@ -988,7 +988,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.658Z"
+            "lockedAt": "2026-11-22T15:19:11.556Z"
           },
           "18:20": {
             "locked": true,
@@ -996,7 +996,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.660Z"
+            "lockedAt": "2026-11-22T15:19:11.562Z"
           },
           "18:25": {
             "locked": true,
@@ -1004,7 +1004,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.664Z"
+            "lockedAt": "2026-11-22T15:19:11.570Z"
           },
           "18:30": {
             "locked": true,
@@ -1012,7 +1012,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.667Z"
+            "lockedAt": "2026-11-22T15:19:11.576Z"
           },
           "18:35": {
             "locked": true,
@@ -1020,7 +1020,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.670Z"
+            "lockedAt": "2026-11-22T15:19:11.583Z"
           },
           "18:40": {
             "locked": true,
@@ -1028,7 +1028,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.673Z"
+            "lockedAt": "2026-11-22T15:19:11.589Z"
           },
           "18:45": {
             "locked": true,
@@ -1036,7 +1036,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.676Z"
+            "lockedAt": "2026-11-22T15:19:11.596Z"
           },
           "18:50": {
             "locked": true,
@@ -1044,7 +1044,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.679Z"
+            "lockedAt": "2026-11-22T15:20:00.750Z"
           },
           "18:55": {
             "locked": true,
@@ -1052,7 +1052,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:27:07.682Z"
+            "lockedAt": "2026-11-22T15:30:01.603Z"
           },
           "19:00": {
             "locked": true,
@@ -1060,7 +1060,7 @@
             "confirmed": true,
             "values": [],
             "score": 0,
-            "lockedAt": "2026-11-22T15:30:00.259Z"
+            "lockedAt": "2026-11-22T15:30:01.663Z"
           }
         },
         "activityCounts": {},
