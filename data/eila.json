@@ -1,7 +1,7 @@
 {
   "app": "Eila",
   "backupVersion": 1,
-  "createdAt": "2026-11-23T15:20:17.722Z",
+  "createdAt": "2026-11-23T15:25:32.822Z",
   "data": {
     "days": {
       "2026-11-21": {
@@ -4093,6 +4093,14 @@
             "values": [],
             "score": 0,
             "lockedAt": "2026-11-23T15:20:00.334Z"
+          },
+          "18:55": {
+            "locked": true,
+            "missed": true,
+            "confirmed": true,
+            "values": [],
+            "score": 0,
+            "lockedAt": "2026-11-23T15:25:00.323Z"
           }
         },
         "activityCounts": {},
